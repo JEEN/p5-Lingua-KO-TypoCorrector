@@ -12,10 +12,9 @@ our @EXPORT = qw( toKorean );
 our %EXPORT_TAGS = ( 'all' => [@EXPORT ] );
 our @EXPORT_OK = ( @{ $EXPORT_TAGS{'all'} } );
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 our $en_h = "rRseEfaqQtTdwWczxvg"; 
-# ㄱㄲㄴㄷㄸㄹㅁㅂㅃㅅㅆㅇㅈㅉㅊㅋㅌㅍㅎ
 
 our $reg_h = "[" . $en_h . "]";
 

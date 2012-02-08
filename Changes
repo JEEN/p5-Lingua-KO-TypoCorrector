@@ -1,8 +1,11 @@
 Revision history for Perl extension Lingua::KO::TypoCorrector.
 
+0.03  Wed Feb  8 23:00:00 2012 KST
+    - Added a repository on resources
+
 0.02  Fri Jul 16 20:00:00 2010 KST
-    - fixed test fail on some os
-    - set encoding utf8 on POD
+    - Fixed test fail on some os
+    - Set encoding utf8 on POD
 
 0.01  Wed Jun 25 12:41:07 2008
 	- original version; created by h2xs 1.23 with options
