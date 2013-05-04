@@ -1,10 +1,17 @@
-use inc::Module::Install;
-use 5.008001;
+use strict;
+use warnings;
+use ExtUtils::MakeMaker;
 
-name            'Lingua-KO-TypoCorrector';
-all_from        'lib/Lingua/KO/TypoCorrector.pm';
-requires 'Exporter' => 0;
-resources repository => 'git://github.com/JEEN/p5-Lingua-KO-TypoCorrector.git';
-use_test_base;
-auto_include;
-WriteAll;
+WriteMakefile(
+    NAME          => 'Lingua::KO::TypoCorrector',
+    AUTHOR        => 'Jeen Lee <jeen@cpan.org>',
+    VERSION_FROM  => 'lib/Lingua/KO/TypoCorrector.pm',
+    ABSTRACT_FROM => 'lib/Lingua/KO/TypoCorrector.pm',
+    PREREQ_PM => {
+        'Exporter'         => 0,
+    },
+    ($ExtUtils::MakeMaker::VERSION >= 6.31
+        ? ( LICENSE => 'perl' )
+        : ()
+    ),
+);

@@ -12,7 +12,7 @@ our @EXPORT = qw( toKorean );
 our %EXPORT_TAGS = ( 'all' => [@EXPORT ] );
 our @EXPORT_OK = ( @{ $EXPORT_TAGS{'all'} } );
 
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 
 our $en_h = "rRseEfaqQtTdwWczxvg"; 
 
@@ -107,10 +107,6 @@ Lingua::KO::TypoCorrector - Typo Corrector for Korean language in using English
 =head1 DESCRIPTION
 
 Lingua::KO::TypoCorrector converts all those typos accidently entered in English into Korean.
-
-=head1 SEE ALSO
-
-L<http://www.seeker.kr/test/toKorean.html>
 
 =head1 AUTHOR
 
