@@ -9,6 +9,7 @@ WriteMakefile(
     ABSTRACT_FROM => 'lib/Lingua/KO/TypoCorrector.pm',
     PREREQ_PM => {
         'Exporter'         => 0,
+        'Test::Base'       => 0,
     },
     ($ExtUtils::MakeMaker::VERSION >= 6.31
         ? ( LICENSE => 'perl' )
