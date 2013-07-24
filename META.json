@@ -1,7 +1,7 @@
 {
-   "abstract" : "It's new $module",
+   "abstract" : "Typo Corrector for Korean language in using English",
    "author" : [
-      "Jeen Lee <aiatejin@gmail.com>"
+      "iamseeker,"
    ],
    "dynamic_config" : 0,
    "generated_by" : "Minilla/v0.5.6, CPAN::Meta::Converter version 2.131560",
@@ -42,7 +42,7 @@
       },
       "runtime" : {
          "requires" : {
-            "perl" : "5.008005"
+            "perl" : "5.008001"
          }
       },
       "test" : {
@@ -52,5 +52,20 @@
       }
    },
    "release_status" : "unstable",
-   "version" : "0.01"
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/JEEN/p5-Lingua-KO-TypoCorrector/issues"
+      },
+      "homepage" : "https://github.com/JEEN/p5-Lingua-KO-TypoCorrector",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/JEEN/p5-Lingua-KO-TypoCorrector.git",
+         "web" : "https://github.com/JEEN/p5-Lingua-KO-TypoCorrector"
+      }
+   },
+   "version" : "0.06",
+   "x_contributors" : [
+      "Jeen Lee <jeen@perl.kr>",
+      "Jeen Lee <aiatejin@gmail.com>"
+   ]
 }

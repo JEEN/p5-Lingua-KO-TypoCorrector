@@ -12,7 +12,7 @@ our @EXPORT = qw( to_hangul );
 our %EXPORT_TAGS = ( 'all' => [@EXPORT ] );
 our @EXPORT_OK = ( @{ $EXPORT_TAGS{'all'} } );
 
-our $VERSION = '0.05';
+our $VERSION = '0.06';
 
 our $en_h = "rRseEfaqQtTdwWczxvg"; 
 

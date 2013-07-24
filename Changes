@@ -2,6 +2,10 @@ Revision history for Perl extension Lingua-KO-TypoCorrector
 
 {{$NEXT}}
 
+0.06 2013-07-24T05:46:42Z
+    - Change `toKorean` method to `to_hangul`
+    - Use Minilla
+
 0.05  Mon May  6 11:00:00 2013 KST
     - Add Test::Base on PREREQ_PM
 
